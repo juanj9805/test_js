@@ -1,6 +1,6 @@
 // import * as State from "./state.js"
 import * as Model from "./model.js"
-import * as View from "./view.js"
+import * as View from "../views/view.js"
 
 // Auth
 // const loginButton = document.querySelector("#loginButton")
