@@ -8,13 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- Scripts -->
+     <script type="module" src="./src/js/index.js"></script>
+
 </head>
 <body>
     <header class="d-flex justify-content-between align-items-center shadow-sm">
         <div class="d-flex">
-            <img src="" alt="">
-            <i class="bi bi-book"></i>
-            <h2>RestorApp</h2>
+            <i style="color: #13EC49;" class="bi bi-fork-knife"></i>
+            <h2 >RestorApp</h2>
         </div>
         <nav class="navbar">
             <ul class="d-flex">
@@ -26,29 +27,22 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <main class="col-9  bg-danger vh-100">
-                <div class="row">
-                    <div class="col"><h3>Our Menu</h3></div>
+            <main class="col-9 ">
+                <div class="row my-5">
+                    <div class="col fw-bolder"><h3>Our Menu</h3></div>
                     <div class="col"><input class="form-control" type="search" placeholder="Search food..."></div>
                 </div>
                 <nav>
-                    <button class="btn btn-success"><i class="bi bi-book"></i>All</button>
-                    <button class="btn btn-success"><i class="bi bi-book"></i>Burguers</button>
-                    <button class="btn btn-success"><i class="bi bi-book"></i>Sides</button>
-                    <button class="btn btn-success"><i class="bi bi-book"></i>Drinks</button>
+                    <button class="btn btn-close-white">All</button>
+                    <button class="btn btn-close-white">Burguers</button>
+                    <button class="btn btn-close-white">Sides</button>
+                    <button class="btn btn-close-white">Drinks</button>
                 </nav>
-                <section class="row my-5">
-                    <div class="card" style="width: 18rem;">
-                      <img src="./../assets/burger.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                        <a href="#" class="btn btn-primary"><i class="bi bi-car"></i>Add to order</a>
-                      </div>
-                    </div>
+                <section id="productsContainer" class="row my-5" >
+                  
                 </section>
             </main>
-            <aside class="col-3 bg-dark vh-100">
+            <aside class="col-3 bg-dark ">
                 <div class="card">
                     <div class="card-header">
                         <h5>Your Orders</h5>

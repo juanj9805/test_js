@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "juan",
+      "email": "admin@mail.com",
+      "password": "123",
+      "rol": "admin"
+    },
+    {
+      "id": "2",
+      "name": "ana",
+      "email": "user@mail.com",
+      "password": "123",
+      "rol": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "producCategory": "burguer",
+      "tag": "burguer",
+      "productImage": "https://elarrieromexicangrill.com/wp-content/uploads/2024/04/cheese_burger-1.png",
+      "productName": "classic chef burger",
+      "producPrice": 899,
+      "productDescription": "a comment about post 1",
+      "status": "available"
+    },
+    {
+      "id": "2",
+      "producCategory": "burguer",
+      "tag": "burguer",
+      "productImage": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/Category/HJD0042_Hamburger_ALC_WEB_800x600px.png",
+      "productName": "classic chef burger",
+      "producPrice": 899,
+      "productDescription": "a comment about post 1",
+      "status": "available"
+    },
+    {
+      "id": "3",
+      "producCategory": "side",
+      "tag": "potatoe",
+      "productImage": "https://static.vecteezy.com/system/resources/thumbnails/046/544/935/small/french-fries-flying-out-of-paper-bucket-isolated-on-a-transparent-background-png.png",
+      "productName": "golden fries",
+      "producPrice": 399,
+      "productDescription": "a comment about post 1",
+      "status": "available"
+    },
+    {
+      "id": "4",
+      "producCategory": "drink",
+      "tag": "drink",
+      "productImage": "https://5.imimg.com/data5/SELLER/Default/2022/9/AE/LJ/QE/47977595/650-ml-paper-coke-glass.png",
+      "productName": "cola zero",
+      "producPrice": 250,
+      "productDescription": "a comment about post 1",
+      "status": "available"
+    },
+    {
+      "id": "5",
+      "producCategory": "dessert",
+      "tag": "dessert",
+      "productImage": "https://jipan.com.ph/cdn/shop/products/minidonuts.png?v=1597895775",
+      "productName": "donut box",
+      "producPrice": 600,
+      "productDescription": "a comment about post 1",
+      "status": "available"
+    },
+    {
+      "id": "6",
+      "producCategory": "side",
+      "tag": "pizza",
+      "productImage": "https://static.vecteezy.com/system/resources/previews/060/362/677/non_2x/delicious-slice-of-cheesy-pizza-with-stretchy-cheese-isolated-on-a-transparent-background-a-slice-of-pizza-with-stretchy-cheeseisolated-transparent-background-free-png.png",
+      "productName": "pepperoni slice",
+      "producPrice": 450,
+      "productDescription": "a comment about post 1",
+      "status": "available"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "",
+      "idItemsOrder": [
+        {
+          "id": ""
+        }
+      ],
+      "totalPrice": 0,
+      "status": "",
+      "dateGenerated": ""
+    }
+  ],
+  "state": {
+    "products": [],
+    "users": [],
+    "orders": [],
+    "authAdmin": false,
+    "authUser": false,
+    "user": ""
+  } 
+}
