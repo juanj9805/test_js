@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,109 +10,161 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!-- Scripts -->
 </head>
-<body class="bg-body">
-    <header class="d-flex justify-content-between align-items-center shadow-sm">
-        <div class="d-flex">
-            <img src="" alt="">
-            <i class="bi bi-book"></i>
-            <h2>RestorApp</h2>
-        </div>
-        <nav class="navbar">
-            <ul class="d-flex">
-                <li class="list-group-item"><a class="nav-link" href="">Log out</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="container-fluid">
+ <header class="shadow-sm p-3">
+      <div class="container-fluid">
         <div class="row">
-            <main class="col-9 vh-100">
-                <div class="d-flex justify-content-between my-5">
-                    <h3>Recent Orders</h3>
-                    <div>
-                        <button class="btn btn-primary">View all</button>
-                    </div>
-                </div>
-                <section class="row my-5">
-                    <div class="d-flex justify-content-between my-3 rounded shadow-sm">
-                        <div>
-                            <i class="bi bg-info"></i>
-                            <h5>#sad231</h5>
-                            <p>date 231 sad 21</p>
-                        </div>
-                        <div>
-                            <p>321321</p>
-                            <p>deliver</p>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between my-3 rounded shadow-sm">
-                        <div>
-                            <i class="bi bg-info"></i>
-                            <h5>#sad231</h5>
-                            <p>date 231 sad 21</p>
-                        </div>
-                        <div>
-                            <p>321321</p>
-                            <p>deliver</p>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between my-3 rounded shadow-sm">
-                        <div>
-                            <i class="bi bg-info"></i>
-                            <h5>#sad231</h5>
-                            <p>date 231 sad 21</p>
-                        </div>
-                        <div>
-                            <p>321321</p>
-                            <p>deliver</p>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between my-3 rounded shadow-sm">
-                        <div>
-                            <i class="bi bg-info"></i>
-                            <h5>#sad231</h5>
-                            <p>date 231 sad 21</p>
-                        </div>
-                        <div>
-                            <p>321321</p>
-                            <p>deliver</p>
-                        </div>
-                    </div>
-                </section>
-            </main>
-            <aside class="col-3 bg-dark vh-100">
-                <div class="card">
-                    <div class="card-header">
-                        <img src="" alt="">
-                        <p>name</p>
-                        <p>mail</p>
-                        <p>Costumer</p>
-                    </div>
-                    <div class="card-body d-flex justify-content-between">
-                        <div>
-                            <img src="" alt="">
-                            <h5>Costumer</h5>
-                            <p>alice</p>
-                            <p>mail</p>
-                            <p>phone</p>
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                            <h5>Costumer</h5>
-                            <p>alice</p>
-                            <p>mail</p>
-                            <p>phone</p>
-                        </div>
-                    </div>
-                    <nav>
-                        <ul class="list-group">
-                            <li class="list-group-item">lsdadsafa</li>
-                            <li class="list-group-item">lsdadsafa</li>
-                            <li class="list-group-item">lsdadsafa</li>
-                        </ul>
-                    </nav>
-                </div>
-            </aside>
+          <div class="col-6">
+            <div class="d-flex align-items-center">
+              <img style="width: 40px" src="assets/image.png" alt="" />
+              <h2 class="h2 ms-3">RestorApp</h2>
+            </div>
+          </div>
+          <div class="col-6">
+            <nav class="d-flex gap-3 justify-content-end align-items-center ">
+              <a class="text-decoration-none text-black" href=""><i class="bi bi-box-arrow-right"></i>  Dashboard</a>
+            </nav>
+          </div>
         </div>
+      </div>
+    </header>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-9">
+            <div class="container">
+              <div class="row my-5">
+                <div class="col-12">
+                    <div class="row mb-5">
+                      <div class="col-12">
+                        <div
+                          class="d-flex align-items-center justify-content-between"
+                        >
+                          <h3 class="h3">Recent Orders</h3>
+                          <div>
+                            <p>View All</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex flex-column gap-3">
+                            <div class="card p-3 shadow-sm">
+                              <div class="d-flex justify-content-between shadow-sm mb-3">
+                                  <div class="d-flex">
+                                      <div class="">
+                                          <i class="bi bi-truck"></i>
+                                      </div>
+                                      <div class="ms-4 d-flex flex-column">
+                                          <p>#32141</p>
+                                          <p>oct 12 2 items</p>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex gap-3">
+                                      <h4>$45,50</h4>
+                                      <p>delivered</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex justify-content-end gap-3">
+                                  <p>View receipt</p>
+                                  <button class="btn btn-success">Recorder</button>
+                              </div>
+                            </div>
+                            <div class="card p-3 shadow-sm">
+                              <div class="d-flex justify-content-between">
+                                  <div class="d-flex">
+                                      <div class="">
+                                          <i class="bi bi-truck"></i>
+                                      </div>
+                                      <div class="ms-4 d-flex flex-column">
+                                          <p>#32141</p>
+                                          <p>oct 12 2 items</p>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex gap-3">
+                                      <h4>$45,50</h4>
+                                      <p>delivered</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex justify-content-end gap-3">
+                                  <p>View receipt</p>
+                                  <button class="btn btn-success">Recorder</button>
+                              </div>
+                            </div>
+                            <div class="card p-3 shadow-sm">
+                              <div class="d-flex justify-content-between">
+                                  <div class="d-flex">
+                                      <div class="">
+                                          <i class="bi bi-truck"></i>
+                                      </div>
+                                      <div class="ms-4 d-flex flex-column">
+                                          <p>#32141</p>
+                                          <p>oct 12 2 items</p>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex gap-3">
+                                      <h4>$45,50</h4>
+                                      <p>delivered</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex justify-content-end gap-3">
+                                  <p>View receipt</p>
+                                  <button class="btn btn-success">Recorder</button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row my-5">
+                <div class="col-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <div
+                          class="d-flex align-items-center justify-content-between"
+                        >
+                          <h3 class="h3">Account details</h3>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-3">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="assets/image.png" style="width: 90px;" alt="">
+                  <p>Alex student</p>
+                  <p>aklex@mail.com</p>
+                  <p>costumer</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3">
+                    <div class="card bg-light p-3">
+                        <p>Total orders</p>
+                        <p>12</p>
+                    </div>
+                    <div class="card bg-light p-3">
+                        <p>Total orders</p>
+                        <p>12</p>
+                    </div>
+                </div>
+                <ul class="list-group my-3">
+                    <div class="d-flex  flex-column gap-3">
+                        <li class="list-group-item d-flex justify-content-between"><p><i class="bi bi-book"></i>  ljdsa</p><i class="bi bi-book"></i></li>
+                        <li class="list-group-item d-flex justify-content-between"><p><i class="bi bi-book"></i>  ljdsa</p><i class="bi bi-book"></i></li>
+                        <li class="list-group-item d-flex justify-content-between"><p><i class="bi bi-book"></i>  ljdsa</p><i class="bi bi-book"></i></li>
+                    </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 </body>
 </html>

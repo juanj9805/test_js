@@ -1,87 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- Style links -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <!-- Scripts -->
-     <script type="module" src="./src/js/index.js"></script>
-
-</head>
-<body>
-    <header class="d-flex justify-content-between align-items-center shadow-sm">
-        <div class="d-flex">
-            <i style="color: #13EC49;" class="bi bi-fork-knife"></i>
-            <h2 >RestorApp</h2>
+    <script type="module" src="./src/js/index.js"></script>
+  </head>
+  <body>
+    <header class="shadow-sm p-3 mb-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6">
+            <div class="d-flex align-items-center">
+              <img style="width: 40px" src="assets/image.png" alt="" />
+              <h2 class="ms-3 h2">Restor App</h2>
+            </div>
+          </div>
+          <div class="col-6">
+            <nav class="d-flex gap-3 justify-content-end align-items-center">
+              <a class="text-decoration-none text-black" href="">Menu</a>
+              <a class="text-decoration-none text-black" href="">My Orders</a>
+              <a class="text-decoration-none text-black" href="">Profile</a>
+            </nav>
+          </div>
         </div>
-        <nav class="navbar">
-            <ul class="d-flex">
-                <li class="list-group-item"><a class="nav-link" href="">Menu</a></li>
-                <li class="list-group-item"><a class="nav-link" href="">My Orders</a></li>
-                <li class="list-group-item"><a class="nav-link" href="">Profile</a></li>
-            </ul>
-        </nav>
+      </div>
     </header>
     <section class="container-fluid">
-        <div class="row">
-            <main class="col-9 ">
-                <div class="row my-5">
-                    <div class="col fw-bolder"><h3>Our Menu</h3></div>
-                    <div class="col"><input class="form-control" type="search" placeholder="Search food..."></div>
-                </div>
-                <nav>
-                    <button class="btn btn-close-white">All</button>
-                    <button class="btn btn-close-white">Burguers</button>
-                    <button class="btn btn-close-white">Sides</button>
-                    <button class="btn btn-close-white">Drinks</button>
-                </nav>
-                <section id="productsContainer" class="row my-5" >
-                  
-                </section>
-            </main>
-            <aside class="col-3 bg-dark ">
-                <div class="card">
-                    <div class="card-header">
-                        <h5>Your Orders</h5>
-                        <p>clear all</p>
-                    </div>
-                    <div class="card-body">
-                        <div>
-                            <img src="" alt="">
-                            <h5>Classic</h5>
-                            <p>no</p>
-                            <button>+ -</button>
-                            <p>remove</p>
-                            <p>price</p>
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                            <h5>Classic</h5>
-                            <p>no</p>
-                            <button>+ -</button>
-                            <p>remove</p>
-                            <p>price</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p>Subtotal</p>
-                        <p>price</p>
-                    </div>
-                    <div>
-                        <p>tax</p>
-                        <p>taxt</p>
-                    </div>
-                    <div class="row">
-                        <h5>total</h5>
-                        <p>price</p>
-                    </div>
-                    <button>Confirm order <i class="bi bg-info"></i></button>
-                </div>
-            </aside>
-        </div>
+      <div class="row">
+        <main class="col-9">
+          <div class="row">
+            <div class="col fw-bolder"><h3>Our Menu</h3></div>
+            <div class="col">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search food..."
+              />
+            </div>
+          </div>
+          <nav>
+            <button class="btn btn-close-white">All</button>
+            <button class="btn btn-close-white">Burguers</button>
+            <button class="btn btn-close-white">Sides</button>
+            <button class="btn btn-close-white">Drinks</button>
+          </nav>
+          <section id="productsContainer" class="row my-5"></section>
+        </main>
+        <aside class="col-3">
+          <div class="card">
+            <div class="card-header d-flex justify-content-between p-3">
+              <p>ORDER DETAILS</p>
+              <p>#3421</p>
+            </div>
+            <div class="card-body">
+              <div class="d-flex gap-3 shadow-sm"></div>
+              <ul class="list-group shadow-sm">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <div class="d-flex">
+                    <img
+                      src="assets/image copy.png"
+                      style="width: 40px"
+                      alt=""
+                    />
+                    <p>Burger sda</p>
+                  </div>
+                  <div>
+                    <p>$5.00</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between mt-3">
+                <p>Subtotal</p>
+                <p>$45.232</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3 shadow-sm">
+                <p>tax</p>
+                <p>$232</p>
+              </div>
+              <div class="d-flex justify-content-between mt-3 shadow-sm">
+                <h4 class="h4">Total</h4>
+                <p>$47.232</p>
+              </div>
+              <button class="btn btn-success container">
+                Confirm order <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </aside>
+      </div>
     </section>
-</body>
+  </body>
 </html>
