@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <!-- Scripts -->
-    <script type="module" src="./src/js/index.js"></script>
+    <script type="module" defer src="./src/index.js"></script>
   </head>
   <body>
     <header class="shadow-sm p-3 mb-5">
@@ -67,23 +67,7 @@
             </div>
             <div class="card-body">
               <div class="d-flex gap-3 shadow-sm"></div>
-              <ul class="list-group shadow-sm">
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  <div class="d-flex">
-                    <img
-                      src="assets/image copy.png"
-                      style="width: 40px"
-                      alt=""
-                    />
-                    <p>Burger sda</p>
-                  </div>
-                  <div>
-                    <p>$5.00</p>
-                  </div>
-                </li>
-              </ul>
+              <ul id="shoppingCart" class="list-group shadow-sm"></ul>
               <div class="d-flex justify-content-between mt-3">
                 <p>Subtotal</p>
                 <p>$45.232</p>

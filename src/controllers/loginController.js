@@ -1,8 +1,8 @@
 import * as LoginView from "./../views/loginView.js";
-import * as Model from "./../models/model.js";
+import * as Api from "../services/api.js";
 
 const login = async function (data) {
-  const users = await Model.getData("users");
+  const users = await Api.getData("users");
 
   const found = users.find(
     (user) =>
@@ -10,10 +10,16 @@ const login = async function (data) {
       user.email === data.emailInput &&
       user.rol === data.rolSelect,
   );
-  console.log(found);
 
   if (!found) return;
-  window.location.href = "admin.html";
+
+  if (found.rol === "admin") {
+    window.location.href = "admin.html";
+  }
+
+  if (found.rol === "user") {
+    window.location.href = "index.html";
+  }
 };
 
 login(LoginView.submitForm(login));

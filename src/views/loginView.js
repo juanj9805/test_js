@@ -11,6 +11,8 @@ export const submitForm = function (handler) {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     const data = getFormData();
+    console.log(data);
+
     handler(data);
   });
 };

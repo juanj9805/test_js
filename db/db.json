@@ -18,61 +18,61 @@
   "products": [
     {
       "id": "1",
-      "producCategory": "burguer",
+      "productCategory": "burguer",
       "tag": "burguer",
       "productImage": "https://elarrieromexicangrill.com/wp-content/uploads/2024/04/cheese_burger-1.png",
       "productName": "classic chef burger",
-      "producPrice": 899,
+      "productPrice": 899,
       "productDescription": "a comment about post 1",
       "status": "available"
     },
     {
       "id": "2",
-      "producCategory": "burguer",
+      "productCategory": "burguer",
       "tag": "burguer",
       "productImage": "https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/Category/HJD0042_Hamburger_ALC_WEB_800x600px.png",
-      "productName": "classic chef burger",
-      "producPrice": 899,
+      "productName": "classic burger",
+      "productPrice": 899,
       "productDescription": "a comment about post 1",
       "status": "available"
     },
     {
-      "id": "3",
-      "producCategory": "side",
+      "id": "as3",
+      "productCategory": "side",
       "tag": "potatoe",
       "productImage": "https://static.vecteezy.com/system/resources/thumbnails/046/544/935/small/french-fries-flying-out-of-paper-bucket-isolated-on-a-transparent-background-png.png",
       "productName": "golden fries",
-      "producPrice": 399,
+      "productPrice": 399,
       "productDescription": "a comment about post 1",
       "status": "available"
     },
     {
-      "id": "4",
-      "producCategory": "drink",
+      "id": "4s",
+      "productCategory": "drink",
       "tag": "drink",
       "productImage": "https://5.imimg.com/data5/SELLER/Default/2022/9/AE/LJ/QE/47977595/650-ml-paper-coke-glass.png",
       "productName": "cola zero",
-      "producPrice": 250,
+      "productPrice": 250,
       "productDescription": "a comment about post 1",
       "status": "available"
     },
     {
-      "id": "5",
-      "producCategory": "dessert",
+      "id": "ew5",
+      "productCategory": "dessert",
       "tag": "dessert",
       "productImage": "https://jipan.com.ph/cdn/shop/products/minidonuts.png?v=1597895775",
       "productName": "donut box",
-      "producPrice": 600,
+      "productPrice": 600,
       "productDescription": "a comment about post 1",
       "status": "available"
     },
     {
-      "id": "6",
-      "producCategory": "side",
+      "id": "ewq6",
+      "productCategory": "side",
       "tag": "pizza",
       "productImage": "https://static.vecteezy.com/system/resources/previews/060/362/677/non_2x/delicious-slice-of-cheesy-pizza-with-stretchy-cheese-isolated-on-a-transparent-background-a-slice-of-pizza-with-stretchy-cheeseisolated-transparent-background-free-png.png",
       "productName": "pepperoni slice",
-      "producPrice": 450,
+      "productPrice": 450,
       "productDescription": "a comment about post 1",
       "status": "available"
     }
@@ -89,6 +89,18 @@
       "totalPrice": 0,
       "status": "",
       "dateGenerated": ""
+    },
+    {
+      "id": "5bf6",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "dbb4",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
     }
   ],
   "state": {
@@ -98,5 +110,187 @@
     "authAdmin": false,
     "authUser": false,
     "user": ""
-  } 
+  },
+  "shoppingCart": [
+    {
+      "id": "69c2",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "2a54",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "e15f",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "790d",
+      "productId": "1",
+      "name": "classic chef burger",
+      "price": 899
+    },
+    {
+      "id": "c416",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "4679",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "4f71",
+      "productId": "1",
+      "name": "classic chef burger",
+      "price": 899
+    },
+    {
+      "id": "346f",
+      "productId": "1",
+      "name": "classic chef burger",
+      "price": 899
+    },
+    {
+      "id": "de02",
+      "productId": "1",
+      "name": "classic chef burger",
+      "price": 899
+    },
+    {
+      "id": "c2d3",
+      "productId": "1",
+      "name": "classic chef burger",
+      "price": 899
+    },
+    {
+      "id": "5a46",
+      "productId": "1",
+      "name": "classic chef burger",
+      "price": 899
+    },
+    {
+      "id": "6d8a",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "b0bb",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "ad4e",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "fb6c",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "21cc",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "f7e8",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "4156",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "8186",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "3481",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "edc7",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "11f7",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "d31f",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "a70e",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "52bf",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "db92",
+      "productId": "as3",
+      "name": "golden fries",
+      "price": 399
+    },
+    {
+      "id": "21be",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "f611",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    },
+    {
+      "id": "e490",
+      "productId": "4s",
+      "name": "cola zero",
+      "price": 250
+    },
+    {
+      "id": "08f8",
+      "productId": "2",
+      "name": "classic burger",
+      "price": 899
+    }
+  ]
 }
